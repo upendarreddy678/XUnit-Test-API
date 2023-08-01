@@ -4,7 +4,7 @@ using DomainSrv.User;
 
 namespace ApplicationSrv.Repo
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private UserDbContext _dbContext;
         public UserRepository(UserDbContext Dbcon)
